@@ -81,6 +81,8 @@ Secure the file:
 sudo chmod 600 /etc/letsencrypt/digitalocean.ini
 ```
 
+sudo apt update
+sudo apt install python3-certbot-dns-digitalocean
 ---
 
 ### Step 5: Generate Your Wildcard Certificate
